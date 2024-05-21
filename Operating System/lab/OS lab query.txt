@@ -1,0 +1,42 @@
+command.term- term here for the extension of file just like .java for java file
+pwd- present working directory
+cal- for the calender
+man cal-for the data of cal
+man (command name) -  show all data of that command
+date- for the date
+mkdir (file name)- is used to create directory
+ls- For display the name of the files in the directory in which we are in current.
+cd (file name)-for entering in the file
+cd (.. as per your file) - One directory down from current directory
+cd ~ - Direct on the home page
+mkdir -p 5/6/7 -  Eksath teeno file ban jayngi ek ke andr ek
+cat > (file name.txt) - for txt file create
+Ctrl d --> to save the file
+cat (file name.txt) -->  For display the text file 
+cat >> (file name.txt) --> For append data in the file
+cp --> for copy
+mv --> for move
+cp example.txt /home/user/1/2 --> example 
+cp (source file name) (destination file path) -->  For copying the file
+grep (multiprogramming os.txt) --> for cheking the content of text file
+grep (-v multiprogramming os.txt) --> Jo name likha h uske alawa saara data show hoga.
+grep (-c multiprogramming os.txt) --> for count the data how many time it is repeat in the file.
+mv --> also for the rename of the file
+sort (city.txt) --> for the sorting
+sort -r city.txt -->  for the reverse sorting
+rm --> for remove any file
+chmod 661 abc.txt --> for change the permission of the file(read-4 write-2 execute-1){661-rw rw x}.
+sort name.txt --> sort the content of file. (asending order)
+sort -r name.txt --> sort the content of file. (desending order)
+sort -n marks.txt --> sort the numeric data of the file.(asending order)
+sort (-n -r) or (-nr) marks.txt --> sort the numeric data of the file. (desending order)
+sort name.txt > newname.txt --> direct save the sorted data into the new file.
+sort -nk 2 student.txt -->  sort any specific column in a file.(k -  represent the column after column the number of column needed for which we want to sort).
+For Vi editor.
+1- vi (file name)
+2- Press i (insert)
+3- Change in file
+4- Esc :wq or :wq!
+sort -t ":" -nk 2 student.txt --> ":" for new delimeter.
+cut -d ":" -f 1 student.txt --> print any specific column of a file.
+sort|cut -d ":" -f 1 student.txt --> "|" is used to combine more than one command together.
